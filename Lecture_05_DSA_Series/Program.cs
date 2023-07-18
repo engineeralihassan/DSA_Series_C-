@@ -96,20 +96,46 @@
 // 2p4+2p3+2p2+2p1+2p0
 // take only the 1 digits values= 2p2+2p2+2p0 =16+4+1 =21 correct answers
 
-int n = int.Parse(Console.ReadLine());
-int ans = 0;
-int i = 0;
-while (n != 0)
-{
-    int digit = n %10;
-    if (digit == 1){
-        ans = (int)( Math.Pow(2, i)) + ans;
-    }
-    n = n / 10;
-   
-    i++;
+//int n = int.Parse(Console.ReadLine());
+//int ans = 0;
+//int i = 0;
+//while (n != 0)
+//{
+//    int digit = n %10;
+//    if (digit == 1){
+//        ans = (int)( Math.Pow(2, i)) + ans;
+//    }
+//    n = n / 10;
 
-}
-Console.WriteLine($"The ans is :{ans}");
+//    i++;
 
+//}
+//Console.WriteLine($"The ans is :{ans}");
+
+//while (n != 0)
+//{
+//    int d = x % 10;
+//    ans = (ans * 10) + d;
+//    x = x / 10;
+
+//}
+//if((ans>int.MaxValue/10) || (ans < int.MinValue))
+//{
+
+//}
+//return ans;
+// Leet code problem solving sessions ;
+//complement of the base 10 integer 
+// complement of 101=010;
+
+//for(int i = 0; i <= 30; i++)
+//{
+//    int ans = (int)Math.Pow(2, i);
+//    if (ans == n)
+//    {
+//        return true;
+//    }
+//}
+//return false;
+// 
 
