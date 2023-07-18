@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA_Series_C#", "DSA_Series_C#\DSA_Series_C#.csproj", "{320A694A-CA21-40A8-A002-A688D55B8A99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_05_DSA_Series", "Lecture_05_DSA_Series\Lecture_05_DSA_Series.csproj", "{37F160D3-193F-45DA-8952-EC6E8BE73A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{320A694A-CA21-40A8-A002-A688D55B8A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320A694A-CA21-40A8-A002-A688D55B8A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320A694A-CA21-40A8-A002-A688D55B8A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F160D3-193F-45DA-8952-EC6E8BE73A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F160D3-193F-45DA-8952-EC6E8BE73A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F160D3-193F-45DA-8952-EC6E8BE73A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F160D3-193F-45DA-8952-EC6E8BE73A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
