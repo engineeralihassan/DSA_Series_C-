@@ -1,4 +1,6 @@
-﻿using System.Security.AccessControl;
+﻿using System;
+using System.Collections.Generic;
+using System.Security.AccessControl;
 
 namespace Lecture_09_DSA_Series
 {
@@ -103,12 +105,41 @@ namespace Lecture_09_DSA_Series
             //    Console.WriteLine(nums2[i]);
             //}
             // Program.linearSearch();
-            int[] ar = { 2, 5, 7, 9, 8, 6,34 };
-           int[] arr = Program.reversArrray(ar);
-            for(int i = 0;i<arr.Length;i++)
+            //int[] ar = { 2, 5, 7, 9, 8, 6, 34 };
+            //int[] arr = Program.reversArrray(ar);
+            // for(int i = 0;i<arr.Length;i++)
+            // {
+            //     Console.WriteLine(arr[i]);
+            // }
+            // Leet code problems solving lecture 
+
+            // Problem 1
+            //int[] ar = { 2, 5, 7, 9, 8, 6, 34 ,45};
+            //for(int i=0;i <ar.Length; i=i+2)
+            //{
+            //    if (i + 1 < ar.Length-1)
+            //    {
+            //        int temp = ar[i];
+            //        ar[i] = ar[i+1];
+            //        ar[i+1] = temp;
+            //    }
+            //}
+            //for (int i = 0; i < ar.Length; i++)
+            //{
+            //    Console.WriteLine($" erray i : {i} {ar[i]}");
+            //}
+
+            // example 2
+
+            int[] nums = { 5, 7, 10, 22, -2, -2, 0 };
+            Array.Reverse(nums, 1, 3);
+            for(int i = 0;i < nums.Length;i++)
             {
-                Console.WriteLine(arr[i]);
+                Console.WriteLine(nums[i]);
             }
+
+
+
 
         }
     }
