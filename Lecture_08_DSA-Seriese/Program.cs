@@ -1,4 +1,5 @@
 ﻿using System.IO.Pipes;
+using System.Runtime.CompilerServices;
 
 namespace Lecture_08_DSA_Seriese
 {
@@ -231,6 +232,11 @@ namespace Lecture_08_DSA_Seriese
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             binomial_coefficient(a, b);
+
+
+            // pass by value 
+           // Its not change the value becuase they are stor on diffret location
+
         }  
     }
 }
