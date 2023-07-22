@@ -56,7 +56,7 @@ using System.IO.Pipes;
 //    while (start <= end)
 //    {
 //        int mid = start + (end - start) / 2;
-       
+
 
 //        if (arr[mid] == search)
 //        {
@@ -117,25 +117,95 @@ using System.IO.Pipes;
 //Console.WriteLine($"The last occurance of {search1} in array is at total : {(ans1+ans)+1}");
 //Peak occurance 
 
-int[] arr1 = { 12, 12, 12, 12, 45, 45, 67, 89, 123, 456, 789, };
-int binarySearch1(int[] arr1, int search1)
-{
-    int start = 0;
-    int end = arr1.Length - 1;
-    int ans = -1;
-    while (start < end)
-    {
-        int mid = start + (end - start) / 2;
+//int[] arr1 = { 12, 12, 12, 12, 45, 45, 67, 89, 123, 456, 789, };
+//int binarySearch1(int[] arr1, int search1)
+//{
+//    int start = 0;
+//    int end = arr1.Length - 1;
+//    int ans = -1;
+//    while (start < end)
+//    {
+//        int mid = start + (end - start) / 2;
 
 
-        if (arr1[mid] < arr1[mid+1])
-        {
-            start = mid + 1;
-        }
-        else
-        {
-            end = mid;
-        }
-    }
-    return start;
-}
+//        if (arr1[mid] < arr1[mid+1])
+//        {
+//            start = mid + 1;
+//        }
+//        else
+//        {
+//            end = mid;
+//        }
+//    }
+//    return start;
+//}
+
+//// Find Pivot in array
+//int FindPivot(int[] arr1)
+//{
+//int start = 0;
+//int end = arr1.Length - 1;
+//while (start < end)
+//{
+//    int mid = start + (end - start) / 2;
+
+
+//    if (arr1[mid] >= arr1[0])
+//    {
+//        start = mid + 1;
+//    }
+//    else
+//    {
+//        end = mid;
+//    }
+//}
+//return start;
+//}
+
+//int searchRotatedSortedArray(int[] arr, int search)
+//{
+//    int pivot = FindPivot(arr);
+//    if (search >= arr[pivot] && search < arr[arr.Length])
+//    {
+//        //return   binarSearch(arr)
+
+//    }
+//    else
+//    {
+//        //return binarySearch(arr);
+
+
+//    }
+//    return 0;
+//}
+
+
+//Find squar root using binary search
+
+//int start = 0;
+//int end = n;
+//int ans = -1;
+//while (start <= end)
+//{
+//    int mid = start + (end - start) / 2;
+
+//    int root = mid * mid;
+//    if (root == n)
+//    {
+//        return mid;
+//    })
+//    if (root < n)
+//    {
+//        ans = mid;
+
+//    }
+//    else
+//    {
+//        end = mid - 1;
+//    }
+//    return ans;
+//}
+
+//Console.WriteLine($"The squar root is : {root}");
+
+

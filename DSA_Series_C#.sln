@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture_10_DSA-Series", "Le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture_11_DSA_Series", "Lecture_11_DSA_Series\Lecture_11_DSA_Series.csproj", "{8FCC66DB-0ADC-4868-8BFE-217075611FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_12DSA-Series", "Lecture_12DSA-Series\Lecture_12DSA-Series.csproj", "{479FB6F8-D0D7-42E1-834F-E42DDF46E9BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture_12DSA-Series", "Lecture_12DSA-Series\Lecture_12DSA-Series.csproj", "{479FB6F8-D0D7-42E1-834F-E42DDF46E9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_13_DSA-Series", "Lecture_13_DSA-Series\Lecture_13_DSA-Series.csproj", "{B2D6F0BA-C72E-47B5-A8DF-B580C99FD453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{479FB6F8-D0D7-42E1-834F-E42DDF46E9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479FB6F8-D0D7-42E1-834F-E42DDF46E9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479FB6F8-D0D7-42E1-834F-E42DDF46E9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D6F0BA-C72E-47B5-A8DF-B580C99FD453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D6F0BA-C72E-47B5-A8DF-B580C99FD453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D6F0BA-C72E-47B5-A8DF-B580C99FD453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D6F0BA-C72E-47B5-A8DF-B580C99FD453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
